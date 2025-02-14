@@ -1,0 +1,191 @@
+<html>
+ <head>
+  <title>
+   Food Website
+  </title> 
+  <link href="/src/styles.css" rel="stylesheet">
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+ </head>
+
+ </div> 
+</section> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    .sidebar {
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+    }
+    .sidebar-open {
+      transform: translateX(0);
+    }
+  </style> 
+   <nav id="navbar" class="hidden md:flex space-x-4">
+      <a class="text-red-500" href="#">Home</a>
+      <a class="text-gray-700" href="#">About</a>
+      <a class="text-gray-700" href="#">Foods</a>
+      <a class="text-gray-700" href="#">Contact</a>
+    </nav> 
+</head>
+
+<header class="p-4 flex justify-between items-center"></header> 
+<img src="logo.png" alt="WOWFOOD" class="h-12">  
+ <section class="relative"> 
+
+   <img src="banner.jpg" class="w-full  h-60 object-cover">
+   <section class="bg-blue-400 py-10">
+      <div class="container mx-auto text-center"> 
+
+        <input class="w-2/3 p-3 rounded-full shadow-md" placeholder="Search for Food..." type="text"/>
+        <button class="bg-red-500 text-white px-6 py-3 rounded-full ml-2">Search</button>
+</header> 
+ 
+<div id="sidebar" class="fixed inset-y-0 left-0 bg-white w-64 shadow-md sidebar md:hidden">
+  <div class="flex justify-between items-center p-4">
+    <span class="text-xl font-bold">wowFood</span>
+    <button id="close-button" class="text-gray-700 focus:outline-none">
+      <i class="fas fa-times"></i>
+    </button> 
+    
+      </div>
+      <div class="md:hidden">
+        <button id="menu-button" class="text-gray-700 focus:outline-none">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+  <div id="sidebar" class="fixed inset-y-0 left-0 bg-white w-64 shadow-md sidebar md:hidden">
+    <div class="flex justify-between items-center p-4">
+      <span class="text-xl font-bold">wowFood</span>
+      <button id="close-button" class="text-gray-700 focus:outline-none">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <nav class="flex flex-col space-y-4 p-4">
+      <a class="text-red-500" href="#">Home</a>
+      <a class="text-gray-700" href="#">About</a>
+      <a class="text-gray-700" href="#">Foods</a>
+      <a class="text-gray-700" href="#">Contact</a>
+    </nav>
+  </div>
+
+  <section class="py-10">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">Explore Foods</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img alt="Pizza" class="w-full h-48 object-cover" height="200" src="https://i.pinimg.com/474x/34/cd/98/34cd98a30cd58f85e25e56a9030ca06c.jpg" width="300"/>
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Pizza</h3>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img alt="Burger" class="w-full h-48 object-cover" height="200" src="https://i.pinimg.com/736x/1b/47/24/1b4724154f4daee8534380758fc1e584.jpg" width="300"/>
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Burger</h3>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img alt="dumlings" class="w-full h-48 object-cover" height="200" src="https://i.pinimg.com/736x/e8/35/ed/e835ed89023c2a6d2d1933321d59efc4.jpg" width="300"/>
+          <div class="p-4">
+            <h3 class="text-lg font-bold">dumlings</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-100 py-10">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">Food Menu</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg shadow-md p-4 flex items-center"> 
+
+          <img alt="Food Item" class="w-24 h-24 object-cover rounded-lg" height="100" src="https://i.pinimg.com/474x/85/df/9b/85df9be54bade74b32674e8f6333f6c8.jpg" width="100"/>
+          <div class="ml-4 text-left">
+            <h3 class="text-lg font-bold">sandwich</h3>
+            <p class="text-gray-600">$12</p>
+            <p class="text-gray-600">bread, mayo , ham ,musdter</p>
+            <button class="bg-red-500 text-white px-4 py-2 rounded-full mt-2">Order Now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-4 flex items-center">
+          <img alt="Smoky Burger" class="w-24 h-24 object-cover rounded-lg" height="100" src="https://i.pinimg.com/474x/8c/56/23/8c5623f571f2ced0e74200d4646e3c66.jpg" width="100"/>
+          <div class="ml-4 text-left">
+            <h3 class="text-lg font-bold">Smoky Burger</h3>
+            <p class="text-gray-600">$22
+            </p>
+            <p class="text-gray-600">grilled on fire.</p>
+            <button class="bg-red-500 text-white px-4 py-2 rounded-full mt-2">Order Now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-4 flex items-center">
+          <img alt="pasta" class="w-24 h-24 object-cover rounded-lg" height="100" src="https://i.pinimg.com/474x/b2/22/e5/b222e55a32c0e801694b10b5696eecb4.jpg" width="100"/>
+          <div class="ml-4 text-left">
+            <h3 class="text-lg font-bold">pasta</h3>
+            <p class="text-gray-600">$45</p>
+            <p class="text-gray-600">cooked with Sauce and vegetables.</p>
+            <button class="bg-red-500 text-white px-4 py-2 rounded-full mt-2">Order Now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-4 flex items-center">
+          <img alt="" class="w-24 h-24 object-cover rounded-lg" height="100" src="https://i.pinimg.com/474x/fe/a6/1b/fea61b02919ab375bb2eb39b63d741c8.jpg" width="100"/>
+          <div class="ml-4 text-left">
+            <h3 class="text-lg font-bold">Steam dumlings</h3>
+            <p class="text-gray-600">$53</p>
+            <p class="text-gray-600">made with best dough inside vegetables and grounded beef</p>
+            <button class="bg-red-500 text-white px-4 py-2 rounded-full mt-2">Order Now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-4 flex items-center">
+          <img alt="cake" class="w-24 h-24 object-cover rounded-lg" height="100" src="https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/273200s.jpg?im=Resize,width=750" width="100"/>
+          <div class="ml-4 text-left">
+            <h3 class="text-lg font-bold">  tomato soup</h3>
+            <p class="text-gray-600">$15</p>
+            <p class="text-gray-600">fluffy and moist cake and cream on top .</p>
+            <button class="bg-red-500 text-white px-4 py-2 rounded-full mt-2">Order Now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-4 flex items-center">
+          <img alt="french fries" class="w-24 h-24 object-cover rounded-lg" height="100" src="https://i.pinimg.com/474x/e9/b5/2f/e9b52ff3f5797d549443fbe0a4086938.jpg" width="100"/>
+          <div class="ml-4 text-left">
+            <h3 class="text-lg font-bold">french fries</h3>
+            <p class="text-gray-600">$41</p>
+            <p class="text-gray-600">hot fresh .</p>
+            <button class="bg-red-500 text-white px-4 py-2 rounded-full mt-2">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <a class="text-red-500 mt-6 inline-block" href="#">See All Foods</a>
+    </div>
+  </section>
+  <footer class="bg-white py-6">
+    <div class="container mx-auto text-center">
+      <div class="flex justify-center space-x-4 mb-4">
+        <a class="text-blue-500" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="text-blue-400" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="text-pink-500" href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="text-gray-600">All rights reserved. Designed by View Thapa</p>
+    </div>
+  </footer>
+  <script>
+    const menuButton = document.getElementById('menu-button');
+    const closeButton = document.getElementById('close-button');
+    const sidebar = document.getElementById('sidebar');
+
+    menuButton.addEventListener('click', () => {
+      sidebar.classList.add('sidebar-open');
+    });
+
+    closeButton.addEventListener('click', () => {
+      sidebar.classList.remove('sidebar-open');
+    });
+  </script>
+</body>
+</html>
+
+  
